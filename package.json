@@ -1,0 +1,30 @@
+{
+  "name": "bucket_list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha specs",
+    "start": "nodemon server.js",
+    "build": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markywildtype/bucket_list.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markywildtype/bucket_list/issues"
+  },
+  "homepage": "https://github.com/markywildtype/bucket_list#readme",
+  "devDependencies": {
+    "nodemon": "^1.14.11",
+    "webpack": "^2.3.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongodb": "^3.0.3"
+  }
+}

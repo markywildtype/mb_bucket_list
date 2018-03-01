@@ -1,0 +1,25 @@
+body {
+  padding: 20px;
+  background-color: salmon;
+  font-family: "Avenir"
+}
+
+select {
+  margin: 10px;
+}
+
+#options {
+    display: block;
+}
+
+#countries {
+  display: none;
+}
+
+#country-label {
+  display: none;
+}
+
+#button {
+  display: none;
+}
